@@ -1,0 +1,68 @@
+#stage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+h1 {
+  text-align: center;
+}
+
+#input {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  clear: both;
+}
+
+#input input {
+  width: 95%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+#input button {
+  padding: 10px;
+  margin-left: 5px;
+  height: 40px;
+  background-color: rgb(32, 155, 87);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#input button:disabled {
+  background-color: rgb(176, 182, 175);
+  color: gray;
+}
+
+#output {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-box {
+  margin: 5px;
+  width: 50%;
+  padding-left: 5px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+}
+
+.content-box ul {
+  list-style: none;
+}
+
+.pic {
+  border-radius: 50%;
+}
+
+.usr-data {
+  margin-left: 10px;
+}
+
+h2 {
+  margin-left: 20px;
+}
